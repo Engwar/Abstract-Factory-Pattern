@@ -1,16 +1,14 @@
-//
-//  AbstractFactory.swift
-//  Abstract Factory Pattern
-//
-//  Created by Igor Shelginskiy on 4/5/19.
-//  Copyright © 2019 Igor Shelginskiy. All rights reserved.
-//
+/// Интерфейс Абстрактной Фабрики объявляет набор методов, которые возвращают
+/// различные абстрактные продукты. Эти продукты называются семейством и связаны
+/// темой или концепцией высокого уровня. Продукты одного семейства обычно могут
+/// взаимодействовать между собой. Семейство продуктов может иметь несколько
+/// вариаций, но продукты одной вариации несовместимы с продуктами другой.
 
 import Foundation
 
 protocol AbstractFactory {
     func clotheHelmet () -> Helmet
-    func clotheArmor () -> Armor
+    func clotheArmor () -> Breastplate
     func clotheBoots () -> Boots
     func clotheGloves () -> Gloves
 }

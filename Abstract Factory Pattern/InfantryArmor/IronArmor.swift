@@ -1,17 +1,10 @@
-//
-//  IronArmor.swift
-//  Abstract Factory Pattern
-//
-//  Created by Igor Shelginskiy on 4/5/19.
-//  Copyright © 2019 Igor Shelginskiy. All rights reserved.
-//
+/// Конкретные продукты создаются соответствующими Конкретными Фабриками.
 
 import Foundation
 
-class IronArmor: Armor {
-    var weight = 10
-    
-    var type = "Iron armor"
-    
-    var armor = 26
+class IronArmor: Breastplate {
+  var type = "Iron armor"
+
+  var weight = 10
+  var armor = 26
 }

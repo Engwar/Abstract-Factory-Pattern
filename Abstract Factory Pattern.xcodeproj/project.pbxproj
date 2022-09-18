@@ -12,10 +12,7 @@
 		94BEEFC02256C55F0096A608 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94BEEFBE2256C55F0096A608 /* Main.storyboard */; };
 		94BEEFC22256C5610096A608 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94BEEFC12256C5610096A608 /* Assets.xcassets */; };
 		94BEEFC52256C5610096A608 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94BEEFC32256C5610096A608 /* LaunchScreen.storyboard */; };
-		94BEEFD12256C74E0096A608 /* Helmet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94BEEFD02256C74E0096A608 /* Helmet.swift */; };
-		94BEEFD32256C9360096A608 /* Armor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94BEEFD22256C9360096A608 /* Armor.swift */; };
-		94BEEFD52256C9590096A608 /* Gloves.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94BEEFD42256C9590096A608 /* Gloves.swift */; };
-		94BEEFD72256C9770096A608 /* Boots.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94BEEFD62256C9770096A608 /* Boots.swift */; };
+		94BEEFD32256C9360096A608 /* Armory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94BEEFD22256C9360096A608 /* Armory.swift */; };
 		94BEEFD92256C9CD0096A608 /* LeatherHelmet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94BEEFD82256C9CD0096A608 /* LeatherHelmet.swift */; };
 		94BEEFDB2256CA2C0096A608 /* LeatherArmor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94BEEFDA2256CA2C0096A608 /* LeatherArmor.swift */; };
 		94BEEFDD2256CA590096A608 /* LeatherGloves.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94BEEFDC2256CA590096A608 /* LeatherGloves.swift */; };
@@ -37,10 +34,7 @@
 		94BEEFC12256C5610096A608 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		94BEEFC42256C5610096A608 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		94BEEFC62256C5610096A608 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		94BEEFD02256C74E0096A608 /* Helmet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helmet.swift; sourceTree = "<group>"; };
-		94BEEFD22256C9360096A608 /* Armor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Armor.swift; sourceTree = "<group>"; };
-		94BEEFD42256C9590096A608 /* Gloves.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gloves.swift; sourceTree = "<group>"; };
-		94BEEFD62256C9770096A608 /* Boots.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Boots.swift; sourceTree = "<group>"; };
+		94BEEFD22256C9360096A608 /* Armory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Armory.swift; sourceTree = "<group>"; };
 		94BEEFD82256C9CD0096A608 /* LeatherHelmet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeatherHelmet.swift; sourceTree = "<group>"; };
 		94BEEFDA2256CA2C0096A608 /* LeatherArmor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeatherArmor.swift; sourceTree = "<group>"; };
 		94BEEFDC2256CA590096A608 /* LeatherGloves.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeatherGloves.swift; sourceTree = "<group>"; };
@@ -101,10 +95,7 @@
 		94BEEFCC2256C6BC0096A608 /* Protocols */ = {
 			isa = PBXGroup;
 			children = (
-				94BEEFD02256C74E0096A608 /* Helmet.swift */,
-				94BEEFD22256C9360096A608 /* Armor.swift */,
-				94BEEFD42256C9590096A608 /* Gloves.swift */,
-				94BEEFD62256C9770096A608 /* Boots.swift */,
+				94BEEFD22256C9360096A608 /* Armory.swift */,
 			);
 			path = Protocols;
 			sourceTree = "<group>";
@@ -221,13 +212,10 @@
 				94BEEFDB2256CA2C0096A608 /* LeatherArmor.swift in Sources */,
 				94BEEFE12256CB970096A608 /* IronGloves.swift in Sources */,
 				94BEEFE52256CC070096A608 /* IronBoots.swift in Sources */,
-				94BEEFD52256C9590096A608 /* Gloves.swift in Sources */,
 				94BEEFDD2256CA590096A608 /* LeatherGloves.swift in Sources */,
 				94BEEFEB2256CD790096A608 /* DressLightArmor.swift in Sources */,
-				94BEEFD12256C74E0096A608 /* Helmet.swift in Sources */,
-				94BEEFD32256C9360096A608 /* Armor.swift in Sources */,
+				94BEEFD32256C9360096A608 /* Armory.swift in Sources */,
 				94BEEFE92256CCB90096A608 /* AbstractFactory.swift in Sources */,
-				94BEEFD72256C9770096A608 /* Boots.swift in Sources */,
 				94BEEFDF2256CA940096A608 /* LeatherBoots.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

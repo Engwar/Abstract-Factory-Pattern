@@ -1,17 +1,10 @@
-//
-//  IronBoots.swift
-//  Abstract Factory Pattern
-//
-//  Created by Igor Shelginskiy on 4/5/19.
-//  Copyright © 2019 Igor Shelginskiy. All rights reserved.
-//
+/// Конкретные продукты создаются соответствующими Конкретными Фабриками.
 
 import Foundation
 
 class IronBoots: Boots {
-    var weight = 6
-    
-    var type = "Iron boots"
-    
-    var armor = 18
+  var type = "Iron boots"
+  
+  var weight = 6
+  var armor = 18
 }

@@ -80,8 +80,8 @@
 			children = (
 				94BEEFBA2256C55F0096A608 /* AppDelegate.swift */,
 				94BEEFBC2256C55F0096A608 /* ViewController.swift */,
-				94BEEFCC2256C6BC0096A608 /* Protocols */,
 				94BEEFCD2256C6DE0096A608 /* AbstractFactory */,
+				94BEEFCC2256C6BC0096A608 /* Protocols */,
 				94BEEFCE2256C7080096A608 /* ArcherArmor */,
 				94BEEFCF2256C7280096A608 /* InfantryArmor */,
 				94BEEFBE2256C55F0096A608 /* Main.storyboard */,

@@ -5,11 +5,11 @@
 import UIKit
 
 class ViewController: UIViewController {
-    
-    var helmet: Helmet?
-    var armor: Breastplate?
-    var gloves: Gloves?
-    var boots: Boots?
+
+  var helmet: Helmet?
+  var armor: Breastplate?
+  var gloves: Gloves?
+  var boots: Boots?
 
 	let lightDresser = DressLightArmor()
 	let heavyDreser = DressHeavyArmor()
